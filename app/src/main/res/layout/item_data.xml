@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <LinearLayout
+            android:id="@+id/lin_content"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+        <!--id-->
+        <TextView
+                android:id="@+id/tv_data1"
+                android:layout_width="@dimen/tableColumnWidth"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="null"/>
+        <View
+                android:layout_width="3px"
+                android:layout_height="50dp"
+                android:background="@color/table_IdLIneColor"/>
+
+        <!--温度-->
+        <TextView
+                android:id="@+id/tv_data2"
+                android:layout_width="@dimen/tableColumnWidth"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="null"/>
+        <View
+                android:layout_width="1px"
+                android:layout_height="50dp"
+                android:background="#cccccc"/>
+
+        <!--湿度-->
+        <TextView
+                android:id="@+id/tv_data3"
+                android:layout_width="@dimen/tableColumnWidth"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="null"/>
+        <View
+                android:layout_width="1px"
+                android:layout_height="50dp"
+                android:background="#cccccc"/>
+
+        <!--超声波-->
+        <TextView
+                android:id="@+id/tv_data4"
+                android:layout_width="@dimen/tableColumnWidth"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="null"/>
+        <View
+                android:layout_width="1px"
+                android:layout_height="50dp"
+                android:background="#cccccc"/>
+
+        <!--光照强度-->
+        <TextView
+                android:id="@+id/tv_data5"
+                android:layout_width="@dimen/tableColumnWidth"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="null"/>
+        <View
+                android:layout_width="1px"
+                android:layout_height="50dp"
+                android:background="#cccccc"/>
+
+    </LinearLayout>
+</LinearLayout>
