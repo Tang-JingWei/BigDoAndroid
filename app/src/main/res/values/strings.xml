@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">BigDo</string>
     <string name="btn">点击获取数据</string>
-    <string name="btn_chart">跳转至 图形 展示</string>
+    <string name="btn_chart">图形展示</string>
     <string name="btnServerTip">开启服务器(暂不支持)</string>
     <string name="btnClientTip">连接服务器</string>
-    <string name="default_IP">192.168.162.250</string>
+    <string name="default_IP">192.168.81.250</string>
     <string name="default_port">5000</string>
     <string name="default_dbname">test</string>
     <string name="default_user">root</string>

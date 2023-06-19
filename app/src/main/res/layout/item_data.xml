@@ -19,9 +19,9 @@
                 android:gravity="center"
                 android:text="null"/>
         <View
-                android:layout_width="3px"
+                android:layout_width="20px"
                 android:layout_height="50dp"
-                android:background="@color/table_IdLIneColor"/>
+                android:background="#cccccc"/>
 
         <!--温度-->
         <TextView

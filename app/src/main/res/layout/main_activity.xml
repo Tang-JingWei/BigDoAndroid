@@ -45,8 +45,8 @@
                                 android:layout_height="98dp"
                                 android:orientation="horizontal">
                         <ImageView
-                                android:layout_width="154dp"
-                                android:layout_height="78dp"
+                                android:layout_width="146dp"
+                                android:layout_height="match_parent"
                                 app:srcCompat="@mipmap/wifi"
                                 android:id="@+id/imagewifi"/>
                         <TextView
@@ -210,11 +210,11 @@
 
                     <GridLayout
                             android:layout_width="match_parent"
-                            android:layout_height="282dp">
+                            android:layout_height="match_parent">
 
                         <com.bigdo.activity.DrawableCenterTextView
                                 android:id="@+id/textView_led1"
-                                android:layout_width="126dp"
+                                android:layout_width="150dp"
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:drawableLeft="@mipmap/led"
@@ -225,6 +225,7 @@
 
                         <Button
                                 android:id="@+id/btn_led1"
+                                android:textSize="15sp"
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="11"
@@ -233,7 +234,7 @@
 
                         <com.bigdo.activity.DrawableCenterTextView
                                 android:id="@+id/textView_led2"
-                                android:layout_width="126dp"
+                                android:layout_width="150dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="0"
                                 android:layout_row="1"
@@ -246,6 +247,7 @@
 
                         <Button
                                 android:id="@+id/btn_led2"
+                                android:textSize="15sp"
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="11"
@@ -254,7 +256,7 @@
 
                         <com.bigdo.activity.DrawableCenterTextView
                                 android:id="@+id/textView_led3"
-                                android:layout_width="126dp"
+                                android:layout_width="150dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="0"
                                 android:layout_row="2"
@@ -267,6 +269,7 @@
 
                         <Button
                                 android:id="@+id/btn_led3"
+                                android:textSize="15sp"
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="11"
@@ -275,7 +278,7 @@
 
                         <com.bigdo.activity.DrawableCenterTextView
                                 android:id="@+id/textView_led4"
-                                android:layout_width="126dp"
+                                android:layout_width="150dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="0"
                                 android:layout_row="3"
@@ -288,6 +291,7 @@
 
                         <Button
                                 android:id="@+id/btn_led4"
+                                android:textSize="15sp"
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="11"
@@ -296,24 +300,25 @@
 
                         <com.bigdo.activity.DrawableCenterTextView
                                 android:id="@+id/textView_smg"
-                                android:layout_width="126dp"
+                                android:layout_width="160dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="0"
                                 android:layout_row="4"
                                 android:layout_weight="1"
-                                android:drawableLeft="@mipmap/smg"
+                                android:drawableLeft="@mipmap/beep"
                                 android:drawablePadding="10dp"
                                 android:gravity="center_vertical"
-                                android:text="数码管"
+                                android:text="警报器"
                                 android:textSize="20dp"/>
 
                         <Button
                                 android:id="@+id/btn_smg"
+                                android:textSize="15sp"
                                 android:layout_width="110dp"
                                 android:layout_height="wrap_content"
                                 android:layout_column="11"
                                 android:layout_row="4"
-                                android:text="亮"/>
+                                android:text="响"/>
 
                     </GridLayout>
                 </LinearLayout>
@@ -338,6 +343,7 @@
 
                             <Switch
                                     android:id="@+id/switch_datadisplay"
+                                    android:textSize="15sp"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
@@ -357,11 +363,12 @@
                             <com.xuexiang.xui.widget.textview.supertextview.SuperButton
                                     android:id="@+id/btn_chart"
                                     style="@style/SuperButton.Blue"
+                                    android:textSize="15sp"
                                     android:layout_marginTop="5dp"
                                     android:text="@string/btn_chart"
                                     android:layout_width="match_parent"
                                     android:layout_height="45dp"
-                                    android:layout_marginBottom="2dp"/>
+                                    android:layout_marginBottom="20dp"/>
                         </GridLayout>
 
 
@@ -402,21 +409,28 @@
                                             android:layout_height="50dp"
                                             android:orientation="horizontal">
 
+                                        <View
+                                                android:layout_width="10px"
+                                                android:layout_height="50dp"
+                                                android:background="@color/table_IdLIneColor"/>
                                         <TextView
                                                 android:id="@+id/tv_data"
+                                                android:textSize="20sp"
                                                 android:layout_width="@dimen/tableColumnWidth"
                                                 android:layout_height="50dp"
                                                 android:layout_gravity="center"
                                                 android:gravity="center"
+                                                android:background="@color/colorPrimaryDark"
                                                 android:text="编号"/>
                                         <View
-                                                android:layout_width="3px"
+                                                android:layout_width="10px"
                                                 android:layout_height="50dp"
                                                 android:background="@color/table_IdLIneColor"/>
 
 
                                         <TextView
                                                 android:layout_width="@dimen/tableColumnWidth"
+                                                android:textSize="15sp"
                                                 android:layout_height="match_parent"
                                                 android:layout_gravity="center"
                                                 android:gravity="center"
@@ -429,6 +443,7 @@
 
                                         <TextView
                                                 android:layout_width="@dimen/tableColumnWidth"
+                                                android:textSize="15sp"
                                                 android:layout_height="50dp"
                                                 android:layout_gravity="center"
                                                 android:gravity="center"
@@ -441,6 +456,7 @@
 
                                         <TextView
                                                 android:layout_width="@dimen/tableColumnWidth"
+                                                android:textSize="15sp"
                                                 android:layout_height="50dp"
                                                 android:layout_gravity="center"
                                                 android:gravity="center"
@@ -453,6 +469,7 @@
 
                                         <TextView
                                                 android:layout_width="@dimen/tableColumnWidth"
+                                                android:textSize="15sp"
                                                 android:layout_height="50dp"
                                                 android:layout_gravity="center"
                                                 android:gravity="center"
